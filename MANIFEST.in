@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include cash_entry_version13 *.css
+recursive-include cash_entry_version13 *.csv
+recursive-include cash_entry_version13 *.html
+recursive-include cash_entry_version13 *.ico
+recursive-include cash_entry_version13 *.js
+recursive-include cash_entry_version13 *.json
+recursive-include cash_entry_version13 *.md
+recursive-include cash_entry_version13 *.png
+recursive-include cash_entry_version13 *.py
+recursive-include cash_entry_version13 *.svg
+recursive-include cash_entry_version13 *.txt
+recursive-exclude cash_entry_version13 *.pyc
